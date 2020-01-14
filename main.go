@@ -15,8 +15,8 @@ func main() {
 	banner := figure.NewFigure("Caesar Cipher", "banner4", true)
 	banner.Print()
 	fmt.Println(underline)
-	signiture := figure.NewFigure("Made by Rick Console", "binary", true)
-	signiture.Print()
+	signature := figure.NewFigure("Made by Rick Console", "binary", true)
+	signature.Print()
 	//END BANNER
 	encoded := flag.String("c", "", "The encrypted text")
 	shift := flag.Int("s", 99, "The shift value. Will do brute force by default") //either do brute force bool or put in 99 as a shift option
